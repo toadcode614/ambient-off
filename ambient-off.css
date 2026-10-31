@@ -1,0 +1,9 @@
+/* Kill the ambient glow canvas behind the player */
+#cinematics {
+  display: none !important;
+}
+
+/* Belt and suspenders: the glow container class inside the player */
+.ytp-cinematic-container {
+  display: none !important;
+}

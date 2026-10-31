@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Ambient Off",
+  "version": "1.0",
+  "description": "Disables YouTube Ambient Mode glow.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "css": ["ambient-off.css"]
+    }
+  ]
+}
